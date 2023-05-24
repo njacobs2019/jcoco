@@ -1,4 +1,4 @@
-This repo is the source code to create a docker image for the [JCoCo Virtual Machine](https://kentdlee.github.io/JCoCoPages/_build/html/index.html).  It compiles and installs python 3.2.6, installs the JDK, and JCoCo.  The disassembler is included inside `/home`.  The image is available on DockerHub.
+This repo is the source code to create a docker image for the [JCoCo Virtual Machine](https://kentdlee.github.io/JCoCoPages/_build/html/index.html).  It compiles and installs python 3.2.6, installs the JDK, and JCoCo.  The disassembler is included inside `/home`.  The image is available on DockerHub as `njacobs2019/jcoco`.
 
 # Building the docker image
 ```
