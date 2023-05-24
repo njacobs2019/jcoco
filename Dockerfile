@@ -21,7 +21,7 @@ RUN echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc && \
 ENV PYENV_ROOT /root/.pyenv
 ENV PATH $PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
 
-# Compile Python
+# Compile Python and set as global interpreter
 RUN pyenv install 3.2.6 && pyenv global 3.2.6
 
 # Install JDK
